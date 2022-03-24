@@ -1,0 +1,60 @@
+<html>
+<head>
+    <title></title>
+</head>
+<style>
+
+table{
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+
+tr, td{
+    padding: 10px 20px;
+    border: 1px solid #000;
+}
+
+
+p {
+    padding: 10px;
+}
+
+form{
+    background-color: aqua;
+    border: #000, 10px;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+   
+}
+
+
+</style>
+<body>
+    
+    <div id="form">
+
+        <form action="javascript: void(0)">
+            <p>
+                <label for="X">Rows:</label>
+                <input type="text"  id="rows">
+                </p>
+                <p>
+                <label for="Y">Cols:</label>
+                <input type="text"  id="cols">
+                </p>
+                <p>
+                    <button onclick="drawTable()">draw table</button>
+                </p>
+        </form>
+    
+    </div>
+
+    <div id="tableContainer"></div>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
