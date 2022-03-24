@@ -63,5 +63,4 @@ function changeColor(event) {
 
   event.target.style.backgroundColor = newColor
   storedElement = event.target
-
 }
